@@ -1,5 +1,5 @@
 export const apiBaseConfig = {
-  baseURL: `http://${import.meta.env.VITE_PETHEAVEN_IP}:${import.meta.env.VITE_PETHEAVEN_PORT}`,
+  baseURL: `https://project-wdp-301-be-sp-25.vercel.app/`,
   headers: {
     "Content-Type": "application/json",
     // "URL": window.location.href
