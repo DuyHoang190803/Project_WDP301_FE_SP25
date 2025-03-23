@@ -1,0 +1,30 @@
+.breadcrumb {
+    padding-left: 50px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+}
+
+.breadcrumbItem {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    /* Ngăn chữ bị xuống dòng */
+    padding: 0;
+    background: none;
+}
+
+.breadcrumbItem a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Fix dấu phân cách */
+:global(.ant-breadcrumb-separator) {
+    margin-inline: 6px;
+    color: #999;
+    font-weight: 600;
+}

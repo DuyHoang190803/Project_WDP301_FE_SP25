@@ -1,0 +1,252 @@
+.orderContainer {
+  /* padding: 20px 40px; */
+  /* background-color: #f5f5f5; */
+  min-height: 100vh;
+}
+
+.orderFilter {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.orderMenu {
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+  padding: 10px 0;
+}
+
+.orderMenu .ant-menu-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.orderMenu .ant-menu-item-selected {
+  color: #1890ff;
+  font-weight: 600;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 15px 20px;
+  background-color: #fafafa;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  transition: all 0.3s;
+}
+
+.searchInput:hover,
+.searchInput:focus {
+  border-color: #1890ff;
+  box-shadow: 0 0 5px rgba(24, 144, 255, 0.2);
+}
+
+.loading {
+  display: block;
+  margin: 50px auto;
+}
+
+.alert {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.noOrder {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+  margin-top: 50px;
+}
+
+.orderCard {
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.orderCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.orderStatus {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1890ff;
+  margin: 0;
+}
+
+.divider {
+  margin: 15px 0;
+}
+
+.orderItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.orderItem:last-child {
+  border-bottom: none;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.productDetails {
+  flex: 1;
+}
+
+.productName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #333;
+  margin: 0;
+  color: var(--text-light-color);
+
+}
+
+.productInfo {
+  font-size: 14px;
+  color: #666;
+  margin: 0 !important
+}
+
+.productInfo strong {
+  color: #333;
+  margin-right: 5px;
+}
+
+.orderSummary {
+  padding: 10px 0;
+  text-align: right;
+}
+
+.summaryText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.summaryText strong {
+  color: #1890ff;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.paginationContainer .ant-pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.paginationContainer .ant-pagination-item {
+  display: flex !important;
+  align-items: center !important;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 4px;
+  transition: all 0.3s;
+  border: 1px solid #d9d9d9;
+  background-color: white;
+}
+
+.paginationContainer .ant-pagination-item-active {
+  display: flex !important;
+  align-items: center !important;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+}
+
+.paginationContainer .ant-pagination-item:hover,
+.paginationContainer .ant-pagination-prev:hover a,
+.paginationContainer .ant-pagination-next:hover a {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.paginationContainer .ant-pagination-prev,
+.paginationContainer .ant-pagination-next {
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid #d9d9d9;
+  background-color: white;
+}
+
+.paginationContainer .ant-pagination-prev .ant-pagination-item-link,
+.paginationContainer .ant-pagination-next .ant-pagination-item-link {
+  border: none;
+  padding: 6px 12px;
+  color: #1890ff;
+}
+
+.paginationContainer .ant-pagination-prev .ant-pagination-item-link:hover,
+.paginationContainer .ant-pagination-next .ant-pagination-item-link:hover {
+  color: #40a9ff;
+}
+
+.cancelInfo {
+  margin-top: 12px;
+  padding: 8px;
+  background-color: #fff1f0; 
+  border-radius: 4px;
+  border: 1px solid #ffa39e; 
+  text-align: start;
+}
+
+.cancelReason {
+  margin: 0;
+  font-size: 14px;
+  color: #ff4d4f; 
+  text-align: start;
+
+}
+
+.cancelTime {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  color: #595959;
+}
+
+.cancelReason span,
+.cancelTime span {
+  font-weight: normal; 
+  margin-left: 8px; 
+}

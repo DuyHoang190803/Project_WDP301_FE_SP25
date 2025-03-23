@@ -1,0 +1,74 @@
+/* styles.module.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filterCard {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.filterSection {
+    margin-bottom: 16px;
+}
+
+.filterSection h4 {
+    margin-bottom: 8px;
+}
+
+.selectedFilters {
+    margin-bottom: 16px;
+}
+
+.clearButton {
+    padding: 4px;
+    color: var(--primary-color) !important;
+    font-size: 20px;
+}
+
+.clearButton:hover {
+    color: var(--text-light-color) !important;
+}
+
+.categoryItem {
+    margin-bottom: 8px;
+}
+
+.priceRangeItem {
+    margin-bottom: 8px;
+}
+
+.checkbox {
+    margin-left: auto;
+}
+
+
+
+.checkbox .ant-checkbox-checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.content {
+    display: flex;
+}
+
+.loadMoreButton {
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.loadMoreButton:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border: solid 1px white !important;
+    transition: 0.3s ease-out;
+}

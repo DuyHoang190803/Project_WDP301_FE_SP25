@@ -1,0 +1,159 @@
+@import "@fontsource/quicksand/500.css";
+
+* {
+    font-family: "Quicksand", sans-serif !important;
+}
+
+
+
+:root {
+    /* Màu sắc chủ đạo */
+    --primary-color: #522F1F;
+    --secondary-color: #9f6958;
+    --background-color: #f9f9f9;
+    --text-color: #333333;
+    --text-light-color: #BEAA91;
+    --white-color: #ffffff;
+    --border-color: #e0e0e0;
+
+    /* Cỡ chữ */
+    --font-size-xs: 12px;
+    /* Cỡ chữ rất nhỏ */
+    --font-size-sm: 14px;
+    /* Cỡ chữ nhỏ */
+    --font-size-md: 16px;
+    /* Cỡ chữ trung bình */
+    --font-size-lg: 18px;
+    /* Cỡ chữ lớn */
+    --font-size-xl: 24px;
+    /* Cỡ chữ rất lớn */
+    --font-size-xxl: 32px;
+    /* Cỡ chữ cực lớn */
+
+    /* Khoảng cách */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    font-size: var(--font-size-md);
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Tiêu đề */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--font-size-xxl);
+}
+
+h2 {
+    font-size: var(--font-size-xl);
+}
+
+h3 {
+    font-size: var(--font-size-lg);
+}
+
+/* Liên kết */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Nút bấm */
+button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    font-size: var(--font-size-md);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Input */
+input,
+textarea {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-md);
+}
+
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.custom-toast-container {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: 9999;
+}
+
+/* @media (min-width: 1600px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        width: 1600px;
+    }
+} */

@@ -1,0 +1,7 @@
+const USER_ROLES = {
+  ROLE_USER: 'USER',
+  ROLE_ADMIN: 'ADMIN',
+  ROLE_EMPLOYEE: 'EMPLOYEE'
+};
+
+export default USER_ROLES;

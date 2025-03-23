@@ -1,0 +1,69 @@
+.headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    gap: 8px;
+    /* Khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+}
+
+.headerText h2 {
+    margin: 0;
+    /* Loại bỏ margin mặc định của <h2> */
+}
+
+.headerText span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    /* Khoảng cách giữa "Có" và số lượng sản phẩm */
+}
+
+.headerText span p {
+    display: inline;
+    /* Hoặc inline-block */
+    margin: 0;
+    /* Loại bỏ margin mặc định của <p> */
+    padding: 0;
+    /* Loại bỏ padding mặc định của <p> */
+}
+
+.devider {
+    flex-grow: 1;
+    height: 3px;
+    max-width: 200px;
+    width: 100%;
+    background-color: var(--primary-color);
+    /* Màu của divider */
+    margin-left: 8px;
+}
+
+.Pagination {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin-top: 20px !important;
+    max-width: 100px !important;
+    width: 100%;
+    height: 40px;
+}
+
+.Pagination li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: 1px solid var(--primary-color);
+
+}
+
+.Pagination li a {
+    color: var(--primary-color) !important;
+}
+
+.Pagination .ant-pagination-item .ant-pagination-item-1 .ant-pagination-item-activeant-pagination-item {
+    background-color: var(--primary-color) !important;
+    color: white;
+}

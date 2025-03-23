@@ -1,0 +1,7 @@
+.custom-help-text .ant-form-item-explain {
+  color: #888 !important; /* Đổi màu thành xám nhạt */
+  opacity: 0.8; /* Làm mờ nhẹ */
+}
+.custom-help-text .ant-input {
+  border-color: initial !important; /* Giữ nguyên màu viền ô nhập */
+}

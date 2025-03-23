@@ -1,0 +1,140 @@
+.orderDetailContainer {
+    min-height: 100vh;
+}
+
+.orderProgressCard {
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.orderSteps .ant-steps-item-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.infoCard {
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.2s;
+}
+
+.infoCard:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sectionTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1890ff;
+    margin: 0;
+}
+
+.divider {
+    margin: 15px 0;
+}
+
+.infoContent {
+    font-size: 15px;
+    color: #666;
+}
+
+.infoContent p {
+    margin: 8px 0;
+}
+
+.infoContent strong {
+    color: #333;
+    margin-right: 8px;
+}
+
+.orderItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.orderItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.orderItem:last-child {
+    border-bottom: none;
+}
+
+.productImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.productDetails {
+    flex: 1;
+}
+
+.productName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 8px 0;
+}
+
+.productDetails p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 6px 0;
+}
+
+.productDetails strong {
+    color: #333;
+    margin-right: 5px;
+}
+
+.paymentDetails {
+    font-size: 15px;
+    color: #666;
+}
+
+.paymentRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.paymentAmount {
+    color: #333;
+    font-weight: 500;
+}
+
+.totalLabel {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.finalAmount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1890ff;
+}
+
+.loading {
+    display: block;
+    margin: 50px auto;
+}
+
+.alert {
+    /* max-width: 600px; */
+    margin: 20px auto;
+}

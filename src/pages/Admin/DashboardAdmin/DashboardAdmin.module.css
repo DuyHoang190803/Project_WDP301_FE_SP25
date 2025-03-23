@@ -1,0 +1,105 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.dashboard-stats-container {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-stat-card:hover {
+  transform: scale(1.05);
+}
+
+.dashboard-stat-icon {
+  font-size: 44px;
+  border-radius: 20%;
+  border: 1px solid #c3d2e7;
+  /* Độ dày và màu border */
+  padding: 10px;
+  /* Để biểu tượng không bị dính vào viền */
+  background-color: aqua;
+  color: rgb(2, 54, 2);
+}
+
+
+.dashboard-stat-info {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+
+
+.dashboard-stat-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-stat-change {
+  font-size: 14px;
+}
+
+.dashboard-stat-change.dashboard-positive {
+  color: green;
+}
+
+.dashboard-stat-change.dashboard-negative {
+  color: red;
+}
+
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.target-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.set-button-date {
+  text-align: right;
+}
+
+.title-dashboard {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 2500;
+  margin-bottom: -20px;
+}
+
+.button-date-choose {
+  width: 100px;
+  text-align: center;
+  background-color: cyan !important;
+  color: blue !important;
+  border-color: #1677ff !important;
+}
+
+.button-date {
+  width: 100px;
+  text-align: center;
+}

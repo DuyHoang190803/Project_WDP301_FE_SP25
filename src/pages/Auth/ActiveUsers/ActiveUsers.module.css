@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.image {
+  width: 70px !important;
+  height: 70px !important;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 24px;
+  color: #1890ff;
+}
+
+.message {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #40a9ff;
+}

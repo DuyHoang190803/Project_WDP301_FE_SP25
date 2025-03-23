@@ -1,0 +1,120 @@
+.addressContainer {
+    max-width: 1200px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+}
+
+/* Danh sách địa chỉ */
+.addressList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.addressItem {
+    width: 100%;
+}
+
+/* Card địa chỉ (Ant Design Card) */
+.addressCard {
+    background-color: #f9f9f9;
+    /* Màu nền nhạt */
+    border-radius: 8px;
+    /* Góc bo tròn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ cho thẻ */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Hiệu ứng khi hover */
+}
+
+.addressCard:hover {
+    transform: translateY(-4px);
+    /* Dịch chuyển lên trên */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Bóng đậm hơn */
+}
+
+/* Nội dung trong Card */
+.addressContent {
+    margin-bottom: 16px;
+}
+
+.addressContent p {
+    margin: 8px 0;
+    /* Khoảng cách giữa các phần tử */
+    font-size: 14px;
+    /* Kích thước chữ vừa phải */
+    color: #333;
+    /* Màu chữ */
+}
+
+.fullName {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.addressDetails,
+.phone {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Tag Địa chỉ mặc định */
+.addressContent .ant-tag-green {
+    background-color: #52c41a !important;
+    /* Màu xanh lá */
+    color: #fff !important;
+    /* Màu chữ trắng */
+    margin-left: 8px;
+}
+
+/* Các nút hành động */
+.addressActions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.addressActions button {
+    border-radius: 4px;
+    /* Góc bo tròn cho button */
+    transition: background-color 0.2s ease, color 0.2s ease;
+    /* Hiệu ứng khi hover trên button */
+}
+
+.addressActions button:hover {
+    background-color: #1890ff;
+    /* Màu khi hover */
+    color: #fff;
+    /* Màu chữ khi hover */
+}
+
+/* Alert khi không có địa chỉ */
+.noAddressAlert {
+    margin-top: 20px;
+}
+
+/* Divider giữa các địa chỉ */
+.ant-divider {
+    margin: 16px 0;
+    /* Khoảng cách giữa các divider */
+}

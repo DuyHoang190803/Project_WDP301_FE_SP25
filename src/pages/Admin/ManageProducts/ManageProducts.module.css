@@ -1,0 +1,28 @@
+.title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  width: 550px;
+}
+
+.filter-select {
+  width: 200px;
+}
+
+.edit {
+  color: blue;
+}
+
+.delete {
+  color: red;
+}

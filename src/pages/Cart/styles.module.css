@@ -1,0 +1,258 @@
+.cartContainer {
+    margin: auto;
+    padding: 20px;
+}
+
+.sectionLeft {
+    padding: 0 15px;
+}
+
+.sectionRight {
+    padding: 0 15px;
+}
+
+.title {
+    padding: 10px 15px;
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.cartTextEmpty {
+    border: 0;
+    font-size: var(--font-size-lg);
+}
+
+.itemImage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemInfo {
+    width: 80%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemTitle {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--text-light-color);
+    margin-bottom: 4px;
+}
+
+.itemPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.optionImage {
+    max-width: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    max-width: 800px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--text-light-color);
+    margin: 4px 0px 28px 0px;
+
+}
+
+
+
+.cartItems {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.deleteIcon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    font-size: 8px;
+    color: var(--white-color);
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    border-radius: 15px;
+    padding: 0;
+
+}
+
+
+.quantityInput {
+    width: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* .deleteIcon:hover {
+    color: var(--primary-color);
+    background: var(--white-color);
+} */
+
+.cartItem {
+    position: relative;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    margin: 10px 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+}
+
+.optionValues {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6px;
+
+}
+
+.quantityControl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantityControl button {
+    padding: 0;
+    margin: 0;
+    height: 28px;
+    width: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}
+
+.quantityControl button:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.orderSummary {
+    text-align: right;
+}
+
+.orderNote {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.checkoutButton {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalText {
+    font-size: var(--font-size-lg);
+    font-size: 500;
+}
+
+.totalPrice {
+    font-size: var(--font-size-xl);
+    color: red;
+}
+
+.infoText {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    margin: 10px 0px;
+}
+
+.noteSection {
+    margin: 20px 0 10px;
+    padding: 10px 12px;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.noteSection label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.noteInput {
+    width: 100% !important;
+    max-width: 100%;
+    min-height: 80px;
+    height: auto;
+    padding: 10px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    resize: vertical;
+    box-shadow: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.confirmDelete {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}

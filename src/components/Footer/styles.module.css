@@ -1,0 +1,31 @@
+/* AppFooter.module.css */
+.footer {
+    text-align: center;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 24px;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+.footer p, .footer a {
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 16px;
+}

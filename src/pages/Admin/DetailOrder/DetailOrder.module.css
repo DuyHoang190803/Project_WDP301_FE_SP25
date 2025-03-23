@@ -1,0 +1,32 @@
+.detail-order-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .print-button {
+    background-color: #1890ff;
+    color: white;
+  }
+  
+  .processing-button {
+    background-color: #faad14;
+    color: white;
+  }
+  
+  .complete-button {
+    background-color: #52c41a;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  

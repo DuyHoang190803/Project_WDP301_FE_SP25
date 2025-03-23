@@ -1,0 +1,115 @@
+.product-item {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.product-image-hover {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-item:hover .product-image {
+    opacity: 0;
+}
+
+.product-item:hover .product-image-hover {
+    opacity: 1;
+}
+
+.action {
+    margin: 0;
+}
+
+
+
+:global(.ant-card .ant-card-body) {
+    padding: 4px 12px;
+}
+
+:global(.ant-card .ant-card-meta-title) {
+    font-weight: 400;
+    font-size: var(--font-size-sm);
+}
+
+:global(.ant-card .ant-card-meta-description) {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+}
+
+
+
+:global(.ant-card-actions > li) {
+    position: relative;
+    overflow: hidden;
+    margin: 12px !important;
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+    transition: all 0.3s ease-in-out;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Tạo hiệu ứng nền trượt */
+:global(.ant-card-actions > li)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    transition: left 0.3s ease-in-out;
+    z-index: 0;
+}
+
+:global(.ant-card-actions > li:hover)::before {
+    left: 0;
+}
+
+
+
+:global(.ant-card-actions > li:hover) {
+    margin: 12px !important;
+    background-color: var(--white-color);
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color);
+    transition: all 0.2s ease-in;
+}
+
+
+
+:global(.ant-card-actions > li > span) {
+    z-index: 1;
+    position: relative;
+    color: inherit !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+:global(.ant-card-cover) {
+    margin: 0px;
+    padding: 0px;
+}
